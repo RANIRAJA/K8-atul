@@ -8,3 +8,6 @@ spec:
   containers:
   - name: httpd-app
     image: httpd
+  - name: centos
+    image: centos
+    command: ['sleep' ,'6000']
