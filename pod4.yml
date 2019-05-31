@@ -4,7 +4,7 @@ metadata:
   name: myapp
 spec:
   containers:
-  - name: 
+  - name: snehal-pod1
     image: <Image>
     resources:
       limits:
