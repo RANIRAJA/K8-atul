@@ -6,5 +6,5 @@ spec:
   containers:
   - name: snehal-pod1
     image: <Image>
-      ports:
+    ports:
       - containerPort: <Port>
