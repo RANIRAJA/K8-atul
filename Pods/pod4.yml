@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: httpd-rc
-          image: <Image>
+          image: httpd
           ports:
-            - containerPort: <Port>
+            - containerPort: 80
