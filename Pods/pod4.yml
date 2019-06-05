@@ -5,10 +5,10 @@ metadata:
 spec:
   replicas: 12
   selector:
-    app: rc0=
+    app: rc-01
   template:
     metadata:
-      name: myapp
+      name: 
       labels:
         app: myapp
     spec:
