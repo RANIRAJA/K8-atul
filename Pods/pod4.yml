@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: replica-r
+  name: httpd-rc
 spec:
-  replicas: <Replicas>
+  replicas: 12
   selector:
     app: myapp
   template:
