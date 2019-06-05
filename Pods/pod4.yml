@@ -13,7 +13,7 @@ spec:
         app: rc-01
     spec:
       containers:
-        - name: myapp
+        - name: httpd-rc
           image: <Image>
           ports:
             - containerPort: <Port>
