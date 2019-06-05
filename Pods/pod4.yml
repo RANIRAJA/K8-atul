@@ -1,16 +1,13 @@
-apiVersion: v1
+ersion: v1
 kind: ReplicationController
 metadata:
-  name: myapp
+  name: 
 spec:
   replicas: <Replicas>
-  selector:
-    app: myapp
-  template:
-    metadata:
+  selecto app: myapp
+  templat metadata:
       name: myapp
-      labels:
-        app: myapp
+      label     app: myapp
     spec:
       containers:
         - name: myapp
