@@ -20,11 +20,7 @@ spec:
   replicas: 12
   selector:
     app: snehal-pod1
-  template:
-    metadata:
-      name: myapp
-      labels:
-        app: myapp
+  
     spec:
       containers:
         - name: myapp
