@@ -16,7 +16,7 @@ kind: ReplicationController
 metadata:
   name: myapp
 spec:
-  replicas: <Replicas>
+  replicas: 12
   selector:
     app: myapp
   template:
