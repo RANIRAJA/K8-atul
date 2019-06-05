@@ -11,10 +11,10 @@ spec:
     app: snehal-pod1
   spec:
     containers:
-  - name: snehal-pod1
-    image: httpd:latest
-    ports:
-      - containerPort: 80
+    - name: snehal-pod1
+      image: httpd:latest
+      ports:
+        - containerPort: 80
 ---
  
 
