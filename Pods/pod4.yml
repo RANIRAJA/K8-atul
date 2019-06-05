@@ -3,7 +3,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: snehal-pod1
-  label:snehal-pod1
+  labels:
+    n
 spec:
   containers:
   - name: snehal-pod1
