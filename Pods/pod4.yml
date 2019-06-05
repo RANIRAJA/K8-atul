@@ -8,7 +8,7 @@ metadata:
 spec:
   replicas: 12
   selector:
-    app
+    app: snehal-pod1
   containers:
   - name: snehal-pod1
     image: httpd:latest
