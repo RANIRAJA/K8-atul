@@ -8,3 +8,9 @@ spec:
     image: httpd:latest
     ports:
       - containerPort: 80
+livenessProbe:
+  exec:
+    command:
+      - /bin/my-script.sh
+  initialDelaySeconds: 60
+  timeoutSeconds: 10
