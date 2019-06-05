@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 12
   selector:
-    app: myapp
+    app: http
   template:
     metadata:
       name: myapp
