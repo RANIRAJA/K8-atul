@@ -8,7 +8,7 @@ spec:
     app: rc-01
   template:
     metadata:
-      name: 
+      name: httpd-rc
       labels:
         app: myapp
     spec:
