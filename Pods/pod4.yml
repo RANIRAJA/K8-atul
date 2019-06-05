@@ -19,7 +19,7 @@ metadata:
 spec:
   replicas: 12
   selector:
-    app: myapp
+    app: snehal-pod1
   template:
     metadata:
       name: myapp
