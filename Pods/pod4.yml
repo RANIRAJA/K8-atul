@@ -15,7 +15,7 @@ spec:
     ports:
       - containerPort: 80
 ---
-controllers/replication.yaml 
+ 
 
 apiVersion: v1
 kind: ReplicationController
