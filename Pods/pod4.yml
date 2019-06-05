@@ -20,10 +20,4 @@ spec:
   replicas: 12
   selector:
     app: snehal-pod1
-  
-    spec:
-      containers:
-        - name: myapp
-          image: <Image>
-          ports:
-            - containerPort: <Port>
+
