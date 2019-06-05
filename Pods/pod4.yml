@@ -10,7 +10,7 @@ spec:
     metadata:
       name: httpd-rc
       labels:
-        app: myapp
+        app: rc-01
     spec:
       containers:
         - name: myapp
