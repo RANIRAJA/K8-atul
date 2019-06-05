@@ -9,7 +9,8 @@ spec:
   replicas: 12
   selector:
     app: snehal-pod1
-  containers:
+  spec:
+    containers:
   - name: snehal-pod1
     image: httpd:latest
     ports:
