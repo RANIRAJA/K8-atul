@@ -20,4 +20,3 @@ spec:
   replicas: 12
   selector:
     app: snehal-pod1
-
